@@ -1,0 +1,47 @@
+//
+//  MedicalForum-Prefix.pch
+//  MedicalForum
+//
+//  Created by fenglei on 14/11/18.
+//  Copyright (c) 2014年 CMT. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Pods
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import <Mantle/Mantle.h>
+#import <IGDigest/NSString+MD5Digest.h>
+
+// CMTKit
+#import "CMTKit.h"
+#import "CMTModel.h"
+
+typedef NS_ENUM(NSInteger, NEXTVC)
+{
+    kHomeVC = 0,
+    kLeftVC,
+    ///病例流程
+    kDisVC,
+    ///非病例,只登陆
+    kComment,
+    //来自于认证页面
+    FromUpgrade,
+    //来自于数字报页面
+    FromDigital,
+    //来自于 数字报的登陆页面
+    FromDigitalAndLogin
+    
+};
+
+#endif

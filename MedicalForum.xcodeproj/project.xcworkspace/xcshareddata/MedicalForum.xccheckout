@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7117F060-D33D-4B19-95CE-404DE75C178F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MedicalForum</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE94EAF022CB25D8629AB5304C5C24278C995B8B</key>
+		<string>192.168.0.123:ios/CmtMedia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MedicalForum/MedicalForum.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE94EAF022CB25D8629AB5304C5C24278C995B8B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>192.168.0.123:ios/CmtMedia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE94EAF022CB25D8629AB5304C5C24278C995B8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE94EAF022CB25D8629AB5304C5C24278C995B8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CmtMedia</string>
+		</dict>
+	</array>
+</dict>
+</plist>

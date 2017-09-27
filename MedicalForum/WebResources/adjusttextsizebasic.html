@@ -1,0 +1,38 @@
+<html class="{SCREEN_MODE}" style="{CUSTOM_FONT}">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" href="./basic.css" />
+    <link rel="stylesheet" href="./ueditor.css" />
+    <script type="text/javascript"  src="./basic.js"></script>
+	<script type="text/javascript">
+	String.prototype.trim = function() {
+		return this.replace(/^\s+/, '').replace(/\s+$/,'');
+	};
+	document.addEventListener("DOMContentLoaded",function() {
+		loadData();
+	},false);
+	</script>
+	<title>医学资讯</title>
+</head>
+<body>
+	<div id="wrapper" style="display:none;">
+        <header id="xg_head_content" style="display:none;">
+            <div id="xgtitle">{ARTICLE_TITLE}</div>
+            <div id="xgdesp">
+                <time id="article_date">{ARTICLE_DATE}</time>&nbsp;&nbsp;<span id="author_name">{ARTICLE_AUTHOR}</span>&nbsp;&nbsp;
+				<span id="section_name">{SECTION_NAME}</span>
+            </div>
+
+        </header>
+		<div id="content" class="content">{ARTICLE_CONTENT}</div>
+		
+
+	</div>
+	<div id="android-dpi" style="display:none;">{ANDROID_DPI}</div>
+	<div id="screen-size" style="display:none;">{SCREEN_SIZE}</div>
+	<div id="custom-fontsize" style="display:none">{CUSTOM_FONTSIZE}</div>
+	<div id="digg" style="display:none">{DIGG}</div>
+	
+</body></html>
